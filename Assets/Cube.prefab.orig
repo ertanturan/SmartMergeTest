@@ -12,9 +12,12 @@ GameObject:
   - component: {fileID: 1436909780976584114}
   - component: {fileID: 1436909780976584115}
   - component: {fileID: 1436909780976583756}
+<<<<<<< HEAD
+  - component: {fileID: 1022229768224277606}
+=======
   - component: {fileID: 234838675408205190}
   - component: {fileID: 3950791561180425546}
-  - component: {fileID: 1022229768224277606}
+>>>>>>> Test2
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -100,13 +103,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+--- !u!54 &1022229768224277606
+Rigidbody:
+=======
 --- !u!81 &234838675408205190
 AudioListener:
+>>>>>>> Test2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436909780976583757}
+<<<<<<< HEAD
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+=======
   m_Enabled: 1
 --- !u!82 &3950791561180425546
 AudioSource:
@@ -204,19 +223,4 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!54 &1022229768224277606
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436909780976583757}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+>>>>>>> Test2
